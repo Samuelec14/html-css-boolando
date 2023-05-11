@@ -114,6 +114,38 @@
             width: 100%;
         }
 
+    /* FOOTER  
+    */
+        footer{
+            background-color:rgb(26, 26, 26);
+            padding: 30px;
+        }
+        footer .my-row{
+            justify-content: space-between;
+        }
+        footer .footer-left{
+            line-height: 25px;
+        }
+        footer .footer-left div:first-child{
+            font-weight: 600;
+        }
+        footer .footer-left div:last-child{
+            font-size: small;
+        }
+        footer .footer-left div a:nth-child(2){
+            padding: 0 8px;
+        }
+
+        footer .footer-right{
+            line-height: 25px;
+        }
+        footer .footer-right div:first-child{
+            font-size: small;
+        }
+        footer .footer-right i{
+            font-size: 20px;
+        }
+
 /* DEBUG  
 */
     /* header{
@@ -125,4 +157,7 @@
     /* main section div .wishlist{
         width: 40px;
         height: 40px;
+    } */
+    /* footer{
+        height: 80px;
     } */
